@@ -5,6 +5,10 @@ $primary-background:#a5a5a5;
 body {
     margin: 20px;
     background-color: $primary-color;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 header {
@@ -53,6 +57,23 @@ header {
 
 }
 
+
+footer {
+    background-color: $primary-color;
+    padding: 16px;
+    text-align: center;
+    
+    .socials {
+        justify-content: space-around;
+        margin-bottom: 16px;
+        border-radius: 35%;
+
+        a{
+            font-size: 50px;
+            text-decoration: none;
+        }
+    }
+}
 
 .card-parent {
     display: flex;

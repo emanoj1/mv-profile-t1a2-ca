@@ -2,6 +2,10 @@
 body {
   margin: 20px;
   background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 header {
@@ -39,6 +43,21 @@ header img {
 #nav-items a:hover {
   /*background-color: #09D0EF;*/
   color: #09D0EF;
+}
+
+footer {
+  background-color: white;
+  padding: 16px;
+  text-align: center;
+}
+footer .socials {
+  justify-content: space-around;
+  margin-bottom: 16px;
+  border-radius: 35%;
+}
+footer .socials a {
+  font-size: 50px;
+  text-decoration: none;
 }
 
 .card-parent {
