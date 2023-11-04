@@ -27,13 +27,18 @@ header img {
   display: flex;
   justify-content: space-around;
   font-size: 18px;
+  font-weight: 900;
 }
 #nav-items a {
   text-decoration: none;
   color: black;
-  background-color: #a5a5a5;
+  /*background-color: #a5a5a5;
   border-radius: 10%;
-  padding: 15px;
+  padding: 15px;*/
+}
+#nav-items a:hover {
+  /*background-color: #09D0EF;*/
+  color: #09D0EF;
 }
 
 .card-parent {
