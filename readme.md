@@ -18,3 +18,31 @@ The Header, which is the top part of the site, features only the profile picture
     </header>
 
 ```
+### Footer
+The footer styling for the homepage and subsequent pages are different. As I am after a minimalist design for the homepage, it features only the social links in the footer. All other pages (About, Experience, Skills and Contact) have a footer that displays both social media accounts, and a copy right info.
+
+#### Social Media implementation
+```html
+ <footer>
+        
+        <div class="socials">
+            
+            <a href="https://github.com" target="_blank">
+                <img src="./images/github.png" alt="Github logo">
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+                <img src="./images/linkedin.png"  alt="Linkedin logo" >
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="./images/twitterx.png"  alt="Twitter logo" >
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="./images/instagram.png"  alt="Instagram logo" >
+            </a>
+            <a href="https://youtube.com" target="_blank">
+                <img src="./images/youtube.png"  alt="YouTube logo" >
+            </a>
+
+        </div>
+    </footer>
+```
