@@ -10,6 +10,8 @@ body {
 
 header {
   background-color: white;
+  text-align: center;
+  margin: 16px;
 }
 header img {
   width: 100px;
@@ -25,6 +27,13 @@ header img {
 }
 .name .kumar-text {
   color: #15A3C7;
+}
+
+.nav-background {
+  background-color: #a5a5a5;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
 }
 
 #nav-items {
@@ -45,6 +54,23 @@ header img {
   color: #09D0EF;
 }
 
+@media screen and (min-width: 600px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .nav-background {
+    background-color: #a5a5a5;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  /* #nav-items {
+      justify-content: space-between;
+  } 
+  */
+}
 footer {
   background-color: white;
   padding: 16px;
@@ -53,7 +79,6 @@ footer {
 footer .socials {
   justify-content: space-around;
   margin-bottom: 16px;
-  border-radius: 35%;
 }
 footer .socials a {
   font-size: 50px;
