@@ -1,13 +1,5 @@
 /*Light Cyan*/
-body {
-  margin: 20px;
-  background-color: white;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
+/*Light Cyan*/
 header {
   background-color: white;
   text-align: center;
@@ -16,42 +8,6 @@ header {
 header img {
   width: 100px;
   height: 100px;
-}
-
-.name {
-  font-size: 60px;
-  font-weight: 900;
-}
-.name .manoj-text {
-  color: #09D0EF;
-}
-.name .kumar-text {
-  color: #15A3C7;
-}
-
-.nav-background {
-  background-color: #a5a5a5;
-  width: 100%;
-  margin-top: 10px;
-  border-radius: 5px;
-}
-
-#nav-items {
-  display: flex;
-  justify-content: space-around;
-  font-size: 18px;
-  font-weight: 900;
-}
-#nav-items a {
-  text-decoration: none;
-  color: black;
-  /*background-color: #a5a5a5;
-  border-radius: 10%;
-  padding: 15px;*/
-}
-#nav-items a:hover {
-  /*background-color: #09D0EF;*/
-  color: #09D0EF;
 }
 
 @media screen and (min-width: 600px) {
@@ -66,10 +22,6 @@ header img {
     padding: 10px;
     border-radius: 10px;
   }
-  /* #nav-items {
-      justify-content: space-between;
-  } 
-  */
 }
 footer {
   background-color: white;
@@ -83,6 +35,60 @@ footer .socials {
 footer .socials a {
   font-size: 50px;
   text-decoration: none;
+}
+
+body {
+  margin: 20px;
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Used in _header.scss
+header {
+    background-color: $primary-color;
+    text-align: center;
+    margin: 16px;
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
+*/
+.name {
+  font-size: 60px;
+  font-weight: 900;
+}
+.name .manoj-text {
+  color: #09D0EF;
+}
+.name .kumar-text {
+  color: #15A3C7;
+}
+
+/*
+.nav-background {
+    background-color:$primary-background;
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+*/
+#nav-items {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-weight: 900;
+}
+#nav-items a {
+  text-decoration: none;
+  color: black;
+}
+#nav-items a:hover {
+  color: #09D0EF;
 }
 
 .card-parent {

@@ -1,6 +1,7 @@
-$primary-color:white;
-$secondary-color:#E0FFFF; /*Light Cyan*/
-$primary-background:#a5a5a5;
+@import "./styles/defaults/colors";
+@import "./styles/defaults/breakpoints";
+@import "./styles/components/header";
+@import "./styles/components/footer";
 
 body {
     margin: 20px;
@@ -9,8 +10,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 
+
+/* Used in _header.scss
 header {
     background-color: $primary-color;
     text-align: center;
@@ -21,7 +25,7 @@ header {
         height: 100px;
     }
 }
-
+*/
 
 .name {
     font-size: 60px;
@@ -36,14 +40,14 @@ header {
     }
 
 }
-
+/*
 .nav-background {
     background-color:$primary-background;
-    width: 100%;
+    width: 50%;
     margin-top: 10px;
     border-radius: 5px;
 }
-
+*/
 
 #nav-items {
     display: flex;
@@ -54,57 +58,15 @@ header {
     a {
         text-decoration: none;
         color: black;
-        /*background-color: #a5a5a5;
-        border-radius: 10%;
-        padding: 15px;*/
-        
     }
 
     a:hover {
-        /*background-color: #09D0EF;*/
         color: #09D0EF;
     }
 
 }
 
 
-@media screen and (min-width:600px) {
-    header {
-        display: flex;
-        align-items: flex-end;
-        justify-content: space-between;
-}
-
-.nav-background {
-    background-color: $primary-background;
-    width: 50%;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-/* #nav-items {
-    justify-content: space-between;
-} 
-*/ 
-}
-
-
-footer {
- 
-    background-color: $primary-color;
-    padding: 16px;
-    text-align: center;
-    
-    .socials {
-        justify-content: space-around;
-        margin-bottom: 16px;
-
-        a{
-            font-size: 50px;
-            text-decoration: none;
-        }
-    }
-}
 
 .card-parent {
     display: flex;

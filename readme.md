@@ -21,7 +21,7 @@ The Header, which is the top part of the site, features only the profile picture
 ### Footer
 The footer styling for the homepage and subsequent pages are different. As I am after a minimalist design for the homepage, it features only the social links in the footer. All other pages (About, Experience, Skills and Contact) have a footer that displays both social media accounts, and a copy right info.
 
-#### Social Media implementation
+#### (a) Social Media implementation
 ```html
  <footer>
         
@@ -46,3 +46,38 @@ The footer styling for the homepage and subsequent pages are different. As I am 
         </div>
     </footer>
 ```
+#### (b) Copyright info implementation
+This is a basically straightforward text informing browsers about cookies and rights to the information on the site belongs to the owner of the site. This commands were placed within the above footer tags:
+
+```html
+    <div class="footer-copyright">
+        <p>
+            This website uses cookies from Google Analytics to track website visits. Read their privacy policy.
+            <br>
+            (C) 2023 Manoj Kumar | All rights Reserved.
+        </p>
+    </div>
+```
+
+## Main Body
+
+### Homepage
+
+
+### About page
+
+
+### Skills page
+
+
+### Contact page
+
+
+### Blog page
+
+
+## Responsiveness
+
+Header & Footer responsiveness
+
+Device responsiveness
