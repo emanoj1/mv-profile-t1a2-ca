@@ -4,7 +4,8 @@
 @import "./styles/components/footer";
 
 body {
-    margin: 20px;
+    /*margin: 100px;*/
+    padding: 100px;
     background-color: $primary-color;
     min-height: 100vh;
     display: flex;
@@ -26,6 +27,7 @@ body {
     }
 
 }
+
 
 
 #nav-items {

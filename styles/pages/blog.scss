@@ -1,0 +1,15 @@
+@import "../components/footer";
+@import "../components/header";
+@import "../defaults/breakpoints";
+@import "../defaults/colors";
+
+
+main {
+    article {
+        section {
+            .blog-image {
+                width:300px;
+            }
+        }
+    }
+}

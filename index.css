@@ -3,26 +3,62 @@
 header {
   background-color: white;
   text-align: center;
-  margin: 16px;
+  /*margin: 16px;*/
 }
 header img {
   width: 100px;
   height: 100px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   header {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
   }
-  .nav-background {
-    background-color: #a5a5a5;
-    width: 50%;
+}
+.nav-background {
+  background-color: #a5a5a5;
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+/*
+@media screen and (min-width:$tablet) {
+    header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+}
+
+.nav-background {
+    background-color: $primary-background;
+    width: 80%;
     padding: 10px;
     border-radius: 10px;
-  }
+    max-width: 300px;
 }
+
+@media screen and (min-width:$desktop) {
+    header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+}
+
+.nav-background {
+    background-color: $primary-background;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 300px;
+}
+*/
+/*Light Cyan*/
 footer {
   background-color: white;
   padding: 16px;
@@ -38,7 +74,8 @@ footer .socials a {
 }
 
 body {
-  margin: 20px;
+  /*margin: 100px;*/
+  padding: 100px;
   background-color: white;
   min-height: 100vh;
   display: flex;
