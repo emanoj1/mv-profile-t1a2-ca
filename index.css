@@ -3,6 +3,7 @@
 header {
   background-color: white;
   text-align: center;
+  align-items: center;
   /*margin: 16px;*/
 }
 header img {
@@ -25,39 +26,36 @@ header img {
   max-width: 300px;
 }
 
-/*
-@media screen and (min-width:$tablet) {
-    header {
-        display: flex;
-        align-items: flex-end;
-        justify-content: space-between;
-    }
+@media screen and (min-width: 769px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
 }
-
 .nav-background {
-    background-color: $primary-background;
-    width: 80%;
-    padding: 10px;
-    border-radius: 10px;
-    max-width: 300px;
+  background-color: #a5a5a5;
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 300px;
 }
 
-@media screen and (min-width:$desktop) {
-    header {
-        display: flex;
-        align-items: flex-end;
-        justify-content: space-between;
-    }
+@media screen and (min-width: 1024px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
 }
-
 .nav-background {
-    background-color: $primary-background;
-    width: 80%;
-    padding: 10px;
-    border-radius: 10px;
-    max-width: 300px;
+  background-color: #a5a5a5;
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 300px;
 }
-*/
+
 /*Light Cyan*/
 footer {
   background-color: white;
@@ -75,11 +73,21 @@ footer .socials a {
 
 body {
   /*margin: 100px;*/
-  padding: 100px;
+  padding: 5% 10% 5% 10%;
   background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  /*align-items: center;*/
+  justify-content: space-between;
+}
+
+#index-body {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
 }
 

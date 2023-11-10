@@ -5,13 +5,22 @@
 
 body {
     /*margin: 100px;*/
-    padding: 100px;
+    padding: 5% 10% 5% 10%;
     background-color: $primary-color;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    /*align-items: center;*/
     justify-content: space-between;
+}
 
+#index-body {
+    background-color: $primary-color;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .name {

@@ -5,6 +5,7 @@
 header {
     background-color: $primary-color;
     text-align: center;
+    align-items: center;
     /*margin: 16px;*/
     
     img {
@@ -28,7 +29,7 @@ header {
     border-radius: 10px;
     max-width: 300px;
 }
-/*
+
 @media screen and (min-width:$tablet) {
     header {
         display: flex;
@@ -60,4 +61,3 @@ header {
     border-radius: 10px;
     max-width: 300px;
 }
-*/
