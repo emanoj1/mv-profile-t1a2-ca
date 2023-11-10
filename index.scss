@@ -56,39 +56,9 @@ body {
 
 }
 
-.second-nav-items-background {
-    width: 200px;
-    background-color: $secondary-background;
-    margin:10px;
 
-    display: flex;
-    justify-content: space-around;
-    font-size: 18px;
-    font-weight: 900;
 
-    a {
-        text-decoration: none;
-        color: black;
-    }
 
-    a:hover {
-        color: #09D0EF;
-}
-}
-
-.button {
-    height: 50px;
-    transition-duration: 0.4s;
-    background-color:deepskyblue;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-  }
-  
-  .button:hover {
-    background-color: $secondary-color;
-    color:black;
-  }
 
 .portfolio-card {
     display: flex;

@@ -1,0 +1,15 @@
+@import "../defaults/colors";
+
+.button {
+    height: 50px;
+    transition-duration: 0.4s;
+    background-color:deepskyblue;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: $secondary-color;
+    color:black;
+  }
