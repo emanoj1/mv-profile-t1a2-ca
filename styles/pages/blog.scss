@@ -5,10 +5,17 @@
 
 
 main {
+    display: flex;
+    gap: 24px;
+    
     article {
+        border: 1px solid black;
+        margin: 10px 0px;
+        overflow: hidden;
+
         section {
             .blog-image {
-                width:300px;
+                width: 300px;
             }
         }
     }
