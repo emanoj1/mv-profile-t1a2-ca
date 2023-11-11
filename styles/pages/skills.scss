@@ -2,6 +2,7 @@
 @import "../defaults/colors";
 @import "../components/footer";
 @import "../components/header";
+@import "../defaults/fonts";
 
 
 .second-nav-items-background {
@@ -22,4 +23,8 @@
     a:hover {
         color: #09D0EF;
 }
+}
+
+.heading {
+    font-family: $heading-font;
 }

@@ -2,6 +2,7 @@
 @import "./styles/defaults/breakpoints";
 @import "./styles/components/header";
 @import "./styles/components/footer";
+@import "./styles/defaults/fonts";
 
 body {
     /*margin: 100px;*/
@@ -29,15 +30,19 @@ body {
     
     .manoj-text {
         color: #09D0EF;
+        font-family: $heading-font;
     }
     
     .kumar-text {
         color: #15A3C7;
+        font-family: $heading-font;
     }
 
 }
 
-
+.short-bio {
+    font-family: $primary-font;
+}
 
 #nav-items {
     display: flex;
@@ -55,9 +60,6 @@ body {
     }
 
 }
-
-
-
 
 
 .portfolio-card {

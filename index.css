@@ -1,5 +1,7 @@
 /*Light Cyan*/
 /*Light Cyan*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Poppins:wght@100;200;300&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Noto+Sans:wght@100&family=Poppins:wght@100;200;300&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap");
 header {
   background-color: white;
   text-align: center;
@@ -97,9 +99,15 @@ body {
 }
 .name .manoj-text {
   color: #09D0EF;
+  font-family: Averia Serif Libre, serif;
 }
 .name .kumar-text {
   color: #15A3C7;
+  font-family: Averia Serif Libre, serif;
+}
+
+.short-bio {
+  font-family: Roboto, sans-serif;
 }
 
 #nav-items {
