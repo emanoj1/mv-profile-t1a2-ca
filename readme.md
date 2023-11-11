@@ -59,6 +59,8 @@ This is a basically straightforward text informing browsers about cookies and ri
     </div>
 ```
 
+## Nav Bar
+
 ## Main Body
 
 ### Homepage
