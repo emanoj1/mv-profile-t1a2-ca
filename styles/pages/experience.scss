@@ -21,11 +21,31 @@
   }
 
   .resume-heading {
-    font-family: $heading-font;
-    font-size: 28px;
+    font-family: $secondary-font;
+    color: $subheading-color;
+    
   }
 
-/*  .resume-listing {
-    font-family: $secondary-font;
+  .heading {
+    font-family: $heading-font;
   }
-*/
+
+  .second-nav-items-background {
+    width: 200px;
+    background-color: $secondary-background;
+    margin:10px;
+
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: 900;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        color: #09D0EF;
+}
+}

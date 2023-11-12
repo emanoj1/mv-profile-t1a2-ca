@@ -2,7 +2,7 @@
 @import "../components/header";
 @import "../defaults/breakpoints";
 @import "../defaults/colors";
-
+@import "../defaults/fonts";
 
 main {
     display: flex;
@@ -36,4 +36,8 @@ main {
             margin: 5px;
         }
     }
+}
+
+.purpose-bio {
+    font-family: $secondary-font;
 }

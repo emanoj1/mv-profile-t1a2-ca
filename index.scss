@@ -24,6 +24,11 @@ body {
     justify-content: space-between;
 }
 
+.profile-logo {
+    max-width: 100;
+    display: flex;
+}
+
 .name {
     font-size: 60px;
     font-weight: 900;
@@ -42,6 +47,13 @@ body {
 
 .short-bio {
     font-family: $primary-font;
+    font-size: larger;
+    display: flex;
+
+}
+
+.span-background {
+    background-color: $secondary-color;
 }
 
 #nav-items {
@@ -83,7 +95,6 @@ body {
     }
 }
 
-
 .card-parent {
     display: flex;
     justify-content: space-around;
@@ -100,7 +111,3 @@ body {
     box-shadow: 0px 0px 15px 5px black;
     transition: 0.5s;
 }
-
-/*header {
-    padding:16px;
-}*/
