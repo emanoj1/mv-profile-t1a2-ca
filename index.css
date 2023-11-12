@@ -73,14 +73,13 @@ footer .socials a {
   text-decoration: none;
 }
 
+/*Overall website layout details*/
 body {
-  /*margin: 100px;*/
   padding: 5% 10% 5% 10%;
   background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  /*align-items: center;*/
   justify-content: space-between;
 }
 
@@ -93,11 +92,13 @@ body {
   justify-content: space-between;
 }
 
+/*Homepage profile image*/
 .profile-logo {
   max-width: 100;
   display: flex;
 }
 
+/*Homepage personal name layout*/
 .name {
   font-size: 60px;
   font-weight: 900;
@@ -111,6 +112,7 @@ body {
   font-family: Averia Serif Libre, serif;
 }
 
+/*Homepage bio layout*/
 .short-bio {
   font-family: Roboto, sans-serif;
   font-size: larger;
@@ -121,6 +123,7 @@ body {
   background-color: #E0FFFF;
 }
 
+/*Page links layout within the navigation bar*/
 #nav-items {
   display: flex;
   justify-content: space-around;
@@ -135,6 +138,7 @@ body {
   color: #09D0EF;
 }
 
+/*Portfolio page card layout*/
 .portfolio-card {
   display: flex;
   flex-direction: column;
@@ -156,6 +160,7 @@ body {
      object-fit: contain;
 }
 
+/*Blog homepage short post layout*/
 .card-parent {
   display: flex;
   justify-content: space-around;

@@ -62,7 +62,7 @@ main {
 }
 
 /*Mobile responsiveness setup for Mobile*/
-@media screen and (min-width: $medium) {
+@media screen and (min-width: $mobile) {
     main {
         form {
             width:500px;
