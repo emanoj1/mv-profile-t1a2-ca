@@ -1,6 +1,7 @@
 @import "../defaults/colors";
 @import "../defaults/fonts";
 
+/*Resume download layout*/
 .button {
     height: 50px;
     transition-duration: 0.4s;
@@ -16,20 +17,23 @@
     color:black;
   }
 
+  /*Page intro/bio layout*/
   .purpose-bio {
     font-family: $secondary-font;
   }
 
+  /*Resume heading before experience listing*/
   .resume-heading {
     font-family: $secondary-font;
     color: $subheading-color;
-    
   }
 
+  /*Main page heading*/
   .heading {
     font-family: $heading-font;
   }
 
+   /*Skills-Experience-Portfolio nav bar*/
   .second-nav-items-background {
     width: 200px;
     background-color: $secondary-background;

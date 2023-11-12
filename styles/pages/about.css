@@ -1,0 +1,31 @@
+/*Light Cyan*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Poppins:wght@100;200;300&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Noto+Sans:wght@100&family=Poppins:wght@100;200;300&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap");
+/*Small navigation bar in About page (skills,experience,portfolio) layout*/
+.second-nav-items-background {
+  width: 200px;
+  background-color: yellow;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-weight: 900;
+}
+.second-nav-items-background a {
+  text-decoration: none;
+  color: black;
+}
+.second-nav-items-background a:hover {
+  color: #09D0EF;
+}
+
+/*Page heading*/
+.heading {
+  font-family: Averia Serif Libre, serif;
+}
+
+/*Page intro bio layout*/
+.purpose-bio {
+  font-family: Poppins, sans-serif;
+  font-weight: 16px;
+}/*# sourceMappingURL=about.css.map */

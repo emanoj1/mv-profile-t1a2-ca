@@ -1,0 +1,105 @@
+/*Light Cyan*/
+/*Light Cyan*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Poppins:wght@100;200;300&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Noto+Sans:wght@100&family=Poppins:wght@100;200;300&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap");
+footer {
+  background-color: white;
+  padding: 16px;
+  text-align: center;
+}
+footer .socials {
+  justify-content: space-around;
+  margin-bottom: 16px;
+}
+footer .socials a {
+  font-size: 50px;
+  text-decoration: none;
+}
+
+/*Light Cyan*/
+header {
+  background-color: white;
+  text-align: center;
+  align-items: center;
+  /*margin: 16px;*/
+}
+header img {
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+}
+.nav-background {
+  background-color: #a5a5a5;
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+@media screen and (min-width: 769px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+}
+.nav-background {
+  background-color: #a5a5a5;
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+}
+.nav-background {
+  background-color: #a5a5a5;
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+.second-nav-items-background {
+  width: 200px;
+  background-color: yellow;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-weight: 900;
+}
+.second-nav-items-background a {
+  text-decoration: none;
+  color: black;
+}
+.second-nav-items-background a:hover {
+  color: #09D0EF;
+}
+
+.heading {
+  font-family: Averia Serif Libre, serif;
+}
+
+.skills-heading {
+  font-family: Poppins, sans-serif;
+  color: #0492c2;
+  font-weight: bolder;
+}
+
+.purpose-bio {
+  font-family: Poppins, sans-serif;
+}/*# sourceMappingURL=skills.css.map */

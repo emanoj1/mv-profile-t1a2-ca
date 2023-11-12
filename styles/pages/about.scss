@@ -1,6 +1,7 @@
 @import "../defaults/colors";
 @import "../defaults/fonts";
 
+/*Small navigation bar in About page (skills,experience,portfolio) layout*/
 .second-nav-items-background {
     width: 200px;
     background-color: $secondary-background;
@@ -21,10 +22,12 @@
 }
 }
 
+/*Page heading*/
 .heading {
     font-family: $heading-font;
 }
 
+/*Page intro bio layout*/
 .purpose-bio {
     font-family: $secondary-font;
     font-weight: 16px;

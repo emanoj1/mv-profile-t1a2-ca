@@ -1,10 +1,12 @@
 @import "../defaults/colors";
 @import "../defaults/fonts";
 
+/*Page heading*/
 .heading {
     font-family: $heading-font;
 }
 
+/*Page intro/bio layout*/
 .purpose-bio {
     font-family: $secondary-font;
 }

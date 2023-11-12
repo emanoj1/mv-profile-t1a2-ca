@@ -1,0 +1,133 @@
+/*Light Cyan*/
+/*Light Cyan*/
+footer {
+  background-color: white;
+  padding: 16px;
+  text-align: center;
+}
+footer .socials {
+  justify-content: space-around;
+  margin-bottom: 16px;
+}
+footer .socials a {
+  font-size: 50px;
+  text-decoration: none;
+}
+
+/*Light Cyan*/
+header {
+  background-color: white;
+  text-align: center;
+  align-items: center;
+  /*margin: 16px;*/
+}
+header img {
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+}
+.nav-background {
+  background-color: #a5a5a5;
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+@media screen and (min-width: 769px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+}
+.nav-background {
+  background-color: #a5a5a5;
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+}
+.nav-background {
+  background-color: #a5a5a5;
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+/*Main Contact Me form layout*/
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 24px;
+}
+main form {
+  /*Form button layout*/
+}
+main form .form-elements {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+main form .form-elements label {
+  font-size: 1.2rem;
+}
+main form .form-elements .form-input {
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 8px 8px 1px 1px #E0FFFF;
+  outline: none;
+  font-size: 1.2rem;
+}
+main form .form-elements .form-input#form-textarea {
+  resize: none;
+}
+main form .form-elements .form-input:not(#form-textarea) {
+  height: 35px;
+}
+main form .form-elements .form-input:focus {
+  box-shadow: 8px 8px 1px 1px yellow;
+}
+main form .button-form {
+  text-align: center;
+}
+main form .button-form #submit-form {
+  height: 50px;
+  width: 80px;
+  background-color: #E0FFFF;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+/*Mobile responsiveness setup for Mobile*/
+@media screen and (min-width: 768px) {
+  main form {
+    width: 500px;
+  }
+  main form .form-elements {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  main form .form-elements .form-input {
+    width: 70%;
+  }
+}/*# sourceMappingURL=contact.css.map */

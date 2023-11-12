@@ -3,6 +3,7 @@
 @import "../components/footer";
 @import "../components/header";
 
+/*Main Contact Me form layout*/
 main {
     display: flex;
     flex-direction: column;
@@ -41,6 +42,7 @@ main {
             }
         
         }
+        /*Form button layout*/
         .button-form {
             text-align: center;
 
@@ -59,6 +61,7 @@ main {
 
 }
 
+/*Mobile responsiveness setup for Mobile*/
 @media screen and (min-width: $medium) {
     main {
         form {

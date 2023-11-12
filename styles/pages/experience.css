@@ -1,0 +1,52 @@
+/*Light Cyan*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Poppins:wght@100;200;300&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Noto+Sans:wght@100&family=Poppins:wght@100;200;300&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap");
+/*Resume download layout*/
+.button {
+  height: 50px;
+  transition-duration: 0.4s;
+  background-color: deepskyblue;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: #E0FFFF;
+  color: black;
+}
+
+/*Page intro/bio layout*/
+.purpose-bio {
+  font-family: Poppins, sans-serif;
+}
+
+/*Resume heading before experience listing*/
+.resume-heading {
+  font-family: Poppins, sans-serif;
+  color: #0492c2;
+}
+
+/*Main page heading*/
+.heading {
+  font-family: Averia Serif Libre, serif;
+}
+
+/*Skills-Experience-Portfolio nav bar*/
+.second-nav-items-background {
+  width: 200px;
+  background-color: yellow;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-weight: 900;
+}
+.second-nav-items-background a {
+  text-decoration: none;
+  color: black;
+}
+.second-nav-items-background a:hover {
+  color: #09D0EF;
+}/*# sourceMappingURL=experience.css.map */
