@@ -55,8 +55,6 @@ This is a basically straightforward text informing browsers about cookies and ri
 ```html
     <div class="footer-copyright">
         <p>
-            This website uses cookies from Google Analytics to track website visits. Read their privacy policy.
-            <br>
             (C) 2023 Manoj Kumar | All rights Reserved.
         </p>
     </div>
