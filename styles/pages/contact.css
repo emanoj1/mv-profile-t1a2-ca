@@ -1,5 +1,3 @@
-/*Light Cyan*/
-/*Light Cyan*/
 footer {
   background-color: white;
   padding: 16px;
@@ -14,7 +12,6 @@ footer .socials a {
   text-decoration: none;
 }
 
-/*Light Cyan*/
 header {
   background-color: white;
   text-align: center;
@@ -130,4 +127,9 @@ main form .button-form #submit-form {
   main form .form-elements .form-input {
     width: 70%;
   }
+}
+.span-background {
+  background-color: #63c5da;
+  padding: 5px;
+  font-weight: bold;
 }/*# sourceMappingURL=contact.css.map */

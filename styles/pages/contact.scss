@@ -79,3 +79,9 @@ main {
         }
     }
 }
+
+.span-background {
+    background-color: $span-colour;
+    padding: 5px;
+    font-weight: bold;
+}

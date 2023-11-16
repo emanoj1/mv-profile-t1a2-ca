@@ -1,5 +1,3 @@
-/*Light Cyan*/
-/*Light Cyan*/
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Poppins:wght@100;200;300&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Noto+Sans:wght@100&family=Poppins:wght@100;200;300&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap");
 header {
@@ -58,7 +56,6 @@ header img {
   max-width: 300px;
 }
 
-/*Light Cyan*/
 footer {
   background-color: white;
   padding: 16px;
@@ -119,8 +116,10 @@ body {
   display: flex;
 }
 
+/*Highlighting text with a color*/
 .span-background {
-  background-color: #E0FFFF;
+  background-color: #63c5da;
+  padding: 5px;
 }
 
 /*Page links layout within the navigation bar*/

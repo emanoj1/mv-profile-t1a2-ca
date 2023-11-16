@@ -1,5 +1,3 @@
-/*Light Cyan*/
-/*Light Cyan*/
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Poppins:wght@100;200;300&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Noto+Sans:wght@100&family=Poppins:wght@100;200;300&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap");
 footer {
@@ -16,7 +14,6 @@ footer .socials a {
   text-decoration: none;
 }
 
-/*Light Cyan*/
 header {
   background-color: white;
   text-align: center;

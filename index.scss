@@ -54,8 +54,10 @@ body {
 
 }
 
+/*Highlighting text with a color*/
 .span-background {
-    background-color: $secondary-color;
+    background-color: $span-colour;
+    padding: 5px;
 }
 
 /*Page links layout within the navigation bar*/
