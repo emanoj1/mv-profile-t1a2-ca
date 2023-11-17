@@ -1,86 +1,39 @@
 # Manoj's Portfolio
 
-## Overview
-This is a portfolio website designed as a part of the CA bootcamp course assignment (T1A2). Commenced on Saturday, 04/11/23, this is currently under development, and scheduled to be completed by Friday, 17/11/23. The assignment is due Sunday, 19/11/23.
+This portfolio website was created as a part of the CA bootcamp course assignment (T1A2) in November 2023. As of writing this document, I've completed only 31 days of coding experience! Please consider this work as a beginners work.
 
-## Design overview
-This website is built using HTML and CSS.
+### Tech stack
+- HTML and CSS.
 
-## Components
+### LIVE site
+- Check out the deployed site: [Manoj's Portfolio site](https://manojportfolioca.netlify.app)
 
-### Header
-The Header, which is the top part of the site, features only the profile picture of the owner, which also serves as the home button. Hence, it's a simple implementation using the following syntax:
+### Layout summary
 
-```html
-<header>
-        <div class="profile-logo">
-            <a href="./index.html">
-            <img src="./images/Cyan Blue backdrop Manoj profile photo.png" alt="Manoj profile pic">
-            </a>
-        </div>
-    </header>
+<ul>
+    <li>4 main pages: Homepage, About, Blog & Contact.</li>
+    <li>3 sub-pages: Skills, Work Experience & Portfolio, housed within the About page.</li>
+    <li>The Blog section has a Blog homepage which features the post summary (title, date, image, excerpt & a Read More link). When the link is clicked, it features the full long form content</li>
+    <li>The Contact page has a form (not-functional) with input fields</li>
+    <li>The header features the Navigation bar and the homepage icon, while the footer features the social media links.</li>
+</ul>
 
-```
-### Footer
-The footer styling for the homepage and subsequent pages are different. As I am after a minimalist design for the homepage, it features only the social links in the footer. All other pages (About, Experience, Skills and Contact) have a footer that displays both social media accounts, and a copy right info.
+### Interesting Features
 
-#### (a) Social Media implementation
-```html
- <footer>
-        
-        <div class="socials">
-            
-            <a href="https://github.com" target="_blank">
-                <img src="./images/github.png" alt="Github logo">
-            </a>
-            <a href="https://linkedin.com" target="_blank">
-                <img src="./images/linkedin.png"  alt="Linkedin logo" >
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="./images/twitterx.png"  alt="Twitter logo" >
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="./images/instagram.png"  alt="Instagram logo" >
-            </a>
-            <a href="https://youtube.com" target="_blank">
-                <img src="./images/youtube.png"  alt="YouTube logo" >
-            </a>
+<ol>
+    <li>Download Resume button</li>
+    <li>The input fields on the Contact page changes background colour when you are in it</li>
+    <li>Minimalist layout with 1 main colour (white canvas) and 2 colours (shades of blue and yellow highlights)</li>
+</ol>
 
-        </div>
-    </footer>
-```
-#### (b) Copyright info implementation
-This is a basically straightforward text informing browsers about cookies and rights to the information on the site belongs to the owner of the site. This commands were placed within the above footer tags:
+### Going Forward
+I am hoping to upgrade this portfolio for professional use:
+<ul>
+    <li>Make the online form functional, perhaps using Zapier.</li>
+    <li>Implement Captcha on the Contact page to eliminate bots.</li>
+    <li>Redo the blog page to make it look more beautiful or integrate it with professional blog platforms.</li>
+    <li>Make the Portfolio cards smaller, and perhaps have a video walk though for each one as well. </li>
+    <li>Perhaps, use a different font style</li>
+</ul>
 
-```html
-    <div class="footer-copyright">
-        <p>
-            (C) 2023 Manoj Kumar | All rights Reserved.
-        </p>
-    </div>
-```
-
-## Nav Bar
-
-## Main Body
-
-### Homepage
-
-
-### About page
-
-
-### Skills page
-
-
-### Contact page
-
-
-### Blog page
-
-
-## Responsiveness
-
-Header & Footer responsiveness
-
-Device responsiveness
+## Thank you for visiting!
