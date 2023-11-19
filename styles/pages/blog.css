@@ -1,3 +1,6 @@
+/* Colors across the website */
+/* Responsiveness across devices */
+/* Footer styling across the website */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Poppins:wght@100;200;300&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Noto+Sans:wght@100&family=Poppins:wght@100;200;300&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap");
 footer {
@@ -14,6 +17,9 @@ footer .socials a {
   text-decoration: none;
 }
 
+/* Colors across the website */
+/* Responsiveness across devices */
+/* Header styling across the website */
 header {
   background-color: white;
   text-align: center;
@@ -24,6 +30,7 @@ header img {
   height: 100px;
 }
 
+/* Mobile responsiveness */
 @media screen and (min-width: 768px) {
   header {
     display: flex;
@@ -31,6 +38,7 @@ header img {
     justify-content: space-between;
   }
 }
+/* Navigation bar layout across moobile */
 .nav-background {
   background-color: #a5a5a5;
   width: 80%;
@@ -39,6 +47,7 @@ header img {
   max-width: 300px;
 }
 
+/* Tablet responsiveness */
 @media screen and (min-width: 769px) {
   header {
     display: flex;
@@ -46,6 +55,7 @@ header img {
     justify-content: space-between;
   }
 }
+/* Navigation bar across Tablet */
 .nav-background {
   background-color: #a5a5a5;
   width: 80%;
@@ -54,6 +64,7 @@ header img {
   max-width: 300px;
 }
 
+/* Desktop responsiveness */
 @media screen and (min-width: 1024px) {
   header {
     display: flex;
@@ -61,6 +72,7 @@ header img {
     justify-content: space-between;
   }
 }
+/* Navigation bar across desktop */
 .nav-background {
   background-color: #a5a5a5;
   width: 80%;
@@ -69,10 +81,14 @@ header img {
   max-width: 300px;
 }
 
+/* Responsiveness across devices */
+/* Colors across the website */
+/* Google Fonts import using URL */
+/* Font Variables */
 /*Blog homepage layout*/
 main {
   display: flex;
-  justify-content: space-around; /*didn't work*/
+  justify-content: space-around;
   flex-direction: column;
   align-items: center;
   /*Short blog post layout*/

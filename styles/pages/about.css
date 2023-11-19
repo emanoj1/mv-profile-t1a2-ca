@@ -1,6 +1,9 @@
+/* Colors across the website */
+/* Google Fonts import using URL */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Poppins:wght@100;200;300&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Noto+Sans:wght@100&family=Poppins:wght@100;200;300&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap");
-/*Small navigation bar in About page (skills,experience,portfolio) layout*/
+/* Font Variables */
+/* SUB-PAGES layout in the About page (skills,experience,portfolio) */
 .second-nav-items-background {
   width: 200px;
   background-color: yellow;

@@ -1,5 +1,8 @@
+/* Colors across the website */
+/* Google Fonts import using URL */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Poppins:wght@100;200;300&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Noto+Sans:wght@100&family=Poppins:wght@100;200;300&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap");
+/* Font Variables */
 /*Resume download layout*/
 .button {
   height: 50px;
@@ -16,7 +19,7 @@
   color: black;
 }
 
-/*Page intro/bio layout*/
+/*Page intro layout*/
 .purpose-bio {
   font-family: Poppins, sans-serif;
 }

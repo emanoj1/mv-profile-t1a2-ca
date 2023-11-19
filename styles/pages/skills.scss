@@ -4,7 +4,7 @@
 @import "../components/header";
 @import "../defaults/fonts";
 
-
+/* SUB-PAGES (skills, experience, portfolio) navigation bar */
 .second-nav-items-background {
     width: 200px;
     background-color: $secondary-background;
@@ -25,16 +25,17 @@
 }
 }
 
+/* Page heading - "My Skills" */
 .heading {
     font-family: $heading-font;
 }
-
+/* Skills heading - "Web Development", "Business Operations" etc */
 .skills-heading {
     font-family: $secondary-font;
     color: $subheading-color;
     font-weight: bolder;
 }
-
+/* Short intro on the page */
 .purpose-bio {
     font-family: $secondary-font;
 }

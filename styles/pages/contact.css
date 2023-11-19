@@ -1,3 +1,8 @@
+/* Responsiveness across devices */
+/* Colors across the website */
+/* Colors across the website */
+/* Responsiveness across devices */
+/* Footer styling across the website */
 footer {
   background-color: white;
   padding: 16px;
@@ -12,6 +17,9 @@ footer .socials a {
   text-decoration: none;
 }
 
+/* Colors across the website */
+/* Responsiveness across devices */
+/* Header styling across the website */
 header {
   background-color: white;
   text-align: center;
@@ -22,6 +30,7 @@ header img {
   height: 100px;
 }
 
+/* Mobile responsiveness */
 @media screen and (min-width: 768px) {
   header {
     display: flex;
@@ -29,6 +38,7 @@ header img {
     justify-content: space-between;
   }
 }
+/* Navigation bar layout across moobile */
 .nav-background {
   background-color: #a5a5a5;
   width: 80%;
@@ -37,6 +47,7 @@ header img {
   max-width: 300px;
 }
 
+/* Tablet responsiveness */
 @media screen and (min-width: 769px) {
   header {
     display: flex;
@@ -44,6 +55,7 @@ header img {
     justify-content: space-between;
   }
 }
+/* Navigation bar across Tablet */
 .nav-background {
   background-color: #a5a5a5;
   width: 80%;
@@ -52,6 +64,7 @@ header img {
   max-width: 300px;
 }
 
+/* Desktop responsiveness */
 @media screen and (min-width: 1024px) {
   header {
     display: flex;
@@ -59,6 +72,7 @@ header img {
     justify-content: space-between;
   }
 }
+/* Navigation bar across desktop */
 .nav-background {
   background-color: #a5a5a5;
   width: 80%;
@@ -67,7 +81,7 @@ header img {
   max-width: 300px;
 }
 
-/*Main Contact Me form layout*/
+/*Main CONTACT ME form layout*/
 main {
   display: flex;
   flex-direction: column;

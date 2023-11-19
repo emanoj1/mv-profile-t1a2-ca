@@ -1,7 +1,7 @@
 @import "../defaults/colors";
 @import "../defaults/breakpoints";
 
-
+/* Header styling across the website */
 header {
     background-color: $primary-color;
     text-align: center;
@@ -12,7 +12,7 @@ header {
         height: 100px;
     }
 }
-
+/* Mobile responsiveness */
 @media screen and (min-width:$mobile) {
     header {
         display: flex;
@@ -20,7 +20,7 @@ header {
         justify-content: space-between;       
     }
 }
-
+/* Navigation bar layout across moobile */
 .nav-background {
     background-color: $primary-background;
     width: 80%;
@@ -28,7 +28,7 @@ header {
     border-radius: 10px;
     max-width: 300px;
 }
-
+/* Tablet responsiveness */
 @media screen and (min-width:$tablet) {
     header {
         display: flex;
@@ -36,7 +36,7 @@ header {
         justify-content: space-between;
     }
 }
-
+/* Navigation bar across Tablet */
 .nav-background {
     background-color: $primary-background;
     width: 80%;
@@ -44,7 +44,7 @@ header {
     border-radius: 10px;
     max-width: 300px;
 }
-
+/* Desktop responsiveness */
 @media screen and (min-width:$desktop) {
     header {
         display: flex;
@@ -52,7 +52,7 @@ header {
         justify-content: space-between;
     }
 }
-
+/* Navigation bar across desktop */
 .nav-background {
     background-color: $primary-background;
     width: 80%;
